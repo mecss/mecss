@@ -1,2 +1,3 @@
-# mess
-Minimalist, Effortless StyleSheets
+# miecss
+
+Minimalist, Intuitive & Effortless CSS
