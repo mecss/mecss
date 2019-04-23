@@ -1,0 +1,4 @@
+@mixin fs($size) {
+    font-size: $size;
+    font-size: ( $size / 10px ) * 1rem;
+}

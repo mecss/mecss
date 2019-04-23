@@ -1,0 +1,10 @@
+body {
+    color: $fontColor;
+    @include fs(20px);
+    .header {
+        bg: $fontColor;
+        &:hover {
+            bg: $bgColor;
+        }
+    }
+}
