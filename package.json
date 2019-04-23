@@ -8,8 +8,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": " node lib/build.js && serve build",
+    "serve": "serve build",
+    "start": "node lib/start.js",
     "watch": "node lib/watch.js"
   },
   "repository": {
@@ -29,5 +29,6 @@
   "homepage": "https://github.com/mecss/mecss#readme",
   "dependencies": {
     "serve": "^11.0.0"
-  }
+  },
+  "devDependencies": {}
 }

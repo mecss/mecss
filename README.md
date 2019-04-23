@@ -1,3 +1,3 @@
 # mecss
 
-Minimalist, Intuitive & Effortless CSS
+Minimalist & Effortless CSS
