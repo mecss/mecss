@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/mecss/mecss#readme",
   "dependencies": {
+    "node-sass": "^4.11.0",
     "serve": "^11.0.0"
   },
   "devDependencies": {}
