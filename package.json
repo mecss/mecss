@@ -1,0 +1,33 @@
+{
+  "name": "miecss",
+  "version": "0.0.1",
+  "description": "Minimalist, Intuitive & Effortless CSS",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " node lib/build.js && serve build",
+    "watch": "node lib/watch.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miecss/miecss.git"
+  },
+  "keywords": [
+    "minimalist",
+    "effortless",
+    "css"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miecss/miecss/issues"
+  },
+  "homepage": "https://github.com/miecss/miecss#readme",
+  "dependencies": {
+    "serve": "^11.0.0"
+  }
+}
