@@ -1,5 +1,5 @@
 {
-  "name": "miecss",
+  "name": "mecss",
   "version": "0.0.1",
   "description": "Minimalist, Intuitive & Effortless CSS",
   "main": "index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miecss/miecss.git"
+    "url": "git+https://github.com/mecss/mecss.git"
   },
   "keywords": [
     "minimalist",
@@ -24,9 +24,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/miecss/miecss/issues"
+    "url": "https://github.com/mecss/mecss/issues"
   },
-  "homepage": "https://github.com/miecss/miecss#readme",
+  "homepage": "https://github.com/mecss/mecss#readme",
   "dependencies": {
     "serve": "^11.0.0"
   }
