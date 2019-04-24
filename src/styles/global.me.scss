@@ -2,8 +2,10 @@ body {
     color: $fontColor;
     @include fs(20px);
     .header {
+        wd: 10px;
+        ht: 10px;
         bg: $fontColor;
-        &:hover {
+        &:hov {
             bg: $bgColor;
         }
     }
