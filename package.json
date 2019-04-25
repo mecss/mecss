@@ -29,6 +29,7 @@
   "homepage": "https://github.com/mecss/mecss#readme",
   "dependencies": {
     "browser-sync": "^2.26.5",
+    "dotenv": "^7.0.0",
     "node-sass": "^4.11.0",
     "serve": "^11.0.0"
   },
