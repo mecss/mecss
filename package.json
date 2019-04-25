@@ -8,7 +8,8 @@
     "test": "test"
   },
   "scripts": {
-    "serve": "serve build",
+    "configenv": "node lib/ConfigEnv.js",
+    "init": "serve build",
     "start": "node lib/start.js",
     "watch": "node lib/watch.js"
   },
