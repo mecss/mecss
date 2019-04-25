@@ -1,5 +1,6 @@
 body {
     color: $fontColor;
+    bg: #666;
     @include fs(20px);
     .header {
         wd: 10px;
