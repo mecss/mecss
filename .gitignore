@@ -1,6 +1,9 @@
 /node_modules
 
 /public/*.css
+
+.env
+
 **/*/.DS_Store
 
 .vscode
