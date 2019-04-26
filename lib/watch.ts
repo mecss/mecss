@@ -1,9 +1,11 @@
-const fs = require('fs');
+import * as fs from 'fs';
 const bs = require('browser-sync').create();
 
 const Core = require('./Core');
 
 class Watch {
+	scssInput: any;
+	publicPath: any;
 	constructor() {
 		this.scssInput = process.env.SCSS_MASTER;
 		this.publicPath = process.env.PUBLIC;
@@ -14,7 +16,7 @@ class Watch {
 			baseDir: process.env.SRC,
 			server: this.publicPath,
 		});
-		bs.watch(process.env.SCSS_FILES, (watchState) => {
+		bs.watch(process.env.SCSS_FILES, (watchState :string) => {
 			const newCore = new Core(watchState);
 			newCore.start();
 			bs.reload();
