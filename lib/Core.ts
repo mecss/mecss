@@ -1,8 +1,8 @@
 import * as fs from 'fs';
 import * as sass from 'node-sass';
-require('dotenv').config();
+require(`dotenv`).config();
 
-const Data = require('./Data');
+const Data = require(`./Data`);
 
 class Core {
     public watchState: any;
@@ -22,14 +22,16 @@ class Core {
             outputStyle: `compressed`,
         }, (err, res) => {
             if (err) throw err;
-            else fs.writeFile(this.input, res.css, err => {
-                if (err) throw (err);
-                else this.handleMeFiles();
+            else fs.writeFile(this.input, res.css, err2 => {
+                if (err2) throw (err2);
+                else {
+                    this.handleMeFiles();
+                    console.log(`👁  | 1 Sass file watched`);
+                }
             });
         });
     }
     public handleMeFiles() {
-        console.log(`👁  | 1 Sass file watched`);
         fs.readFile(this.input, `utf8`, (err, data) => {
             if (err) throw err;
             else {
@@ -37,8 +39,8 @@ class Core {
                     const reg = new RegExp(x.in, `g`);
                     data = data.replace(reg, x.out);
                 });
-                fs.writeFile(this.output, data, `utf8`, err => {
-                    if (err) throw err;
+                fs.writeFile(this.output, data, `utf8`, err2 => {
+                    if (err2) throw err2;
                     else this.deleteUselessFiles();
                 });
             }
