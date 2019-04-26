@@ -9,10 +9,11 @@
   },
   "scripts": {
     "configenv": "node build/ConfigEnv.js",
-    "build": "tsc && tslint ./lib/**/*.ts",
+    "build": "yarn lint && tsc",
     "init": "serve build",
     "start": "yarn build && node build/start.js",
-    "watch": "yarn build && node build/watch.js"
+    "watch": "yarn build && node build/watch.js",
+    "lint":  "tslint ./lib/**/*.ts"
   },
   "repository": {
     "type": "git",
