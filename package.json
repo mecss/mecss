@@ -8,10 +8,11 @@
     "test": "test"
   },
   "scripts": {
-    "configenv": "node lib/ConfigEnv.js",
+    "configenv": "node build/ConfigEnv.js",
+    "build": "tsc && tslint",
     "init": "serve build",
-    "start": "node lib/start.js",
-    "watch": "node lib/watch.js"
+    "start": "yarn build && node build/start.js",
+    "watch": "yarn build && node build/watch.js"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,7 @@
     "typescript": "^3.4.5"
   },
   "devDependencies": {
+    "@types/node": "^11.13.7",
     "tslint": "^5.16.0"
   }
 }
