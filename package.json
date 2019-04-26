@@ -36,6 +36,6 @@
     "typescript": "^3.4.5"
   },
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "tslint": "^5.16.0"
   }
 }
