@@ -9,7 +9,7 @@
   },
   "scripts": {
     "configenv": "node build/ConfigEnv.js",
-    "build": "tsc && tslint",
+    "build": "tsc && tslint ./lib/**/*.ts",
     "init": "serve build",
     "start": "yarn build && node build/start.js",
     "watch": "yarn build && node build/watch.js"
@@ -38,6 +38,7 @@
   },
   "devDependencies": {
     "@types/node": "^11.13.7",
+    "@types/node-sass": "^4.11.0",
     "tslint": "^5.16.0"
   }
 }

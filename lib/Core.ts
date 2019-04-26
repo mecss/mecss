@@ -1,11 +1,15 @@
-const fs = require('fs');
-const sass = require('node-sass');
+import * as fs from 'fs';
+import * as sass from 'node-sass';
 require('dotenv').config();
 
 const Data = require('./Data');
 
 class Core {
-	constructor(watchState) {
+	watchState: any;
+	scssInput: any;
+	input: any;
+	output: any;
+	constructor(watchState :any) {
 		this.watchState = watchState;
 		this.scssInput = process.env.SCSS_MASTER;
 		this.input = process.env.CSS_INPUT;
@@ -29,7 +33,7 @@ class Core {
 		fs.readFile(this.input, 'utf8', (err, data) => {
 			if (err) throw err;
 			else {
-				Data.map(x => {
+				Data.map((x: { in: RegExp; out: string; }) => {
 					const reg = new RegExp(x.in, 'g');
 					data = data.replace(reg, x.out);
 				});
