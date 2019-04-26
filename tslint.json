@@ -5,11 +5,13 @@
     ],
     "jsRules": {},
     "rules": {
+        "arrow-parens": [true, "ban-single-arg-parens"],
         "class-name": true,
         "comment-format": [
             true,
             "check-space"
         ],
+        "curly": [true, "as-needed"],
         "indent": [
             true,
             "spaces"
@@ -20,6 +22,7 @@
             "check-whitespace"
         ],
         "no-var-keyword": true,
+        "no-string-throw": false,
         "quotemark": [
             true,
             "backtick"
