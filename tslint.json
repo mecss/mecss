@@ -5,6 +5,7 @@
             true,
             "check-space"
         ],
+        "eofline": true,
         "indent": [
             true,
             "spaces"

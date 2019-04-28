@@ -1,7 +1,7 @@
 {
   "name": "mecss",
   "version": "0.0.1",
-  "description": "Minimalist, Intuitive & Effortless CSS",
+  "description": "Minimalist & Effortless CSS",
   "main": "index.js",
   "directories": {
     "lib": "lib",
