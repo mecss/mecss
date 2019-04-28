@@ -1,47 +1,59 @@
 {
-  "name": "mecss",
-  "version": "0.3.0",
-  "description": "Minimalist & Effortless CSS",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
-  "scripts": {
-    "build": "yarn lint && tsc",
-    "configenv": "node build/ConfigEnv.js",
-    "init": "serve build",
-    "lint": "tslint ./lib/**/*.ts",
-    "start": "yarn build && node build/start.js",
-    "watch": "yarn build && node build/watch.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mecss/mecss.git"
-  },
-  "keywords": [
-    "minimalist",
-    "effortless",
-    "css"
-  ],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mecss/mecss/issues"
-  },
-  "homepage": "https://github.com/mecss/mecss#readme",
-  "dependencies": {
-    "browser-sync": "^2.26.5",
-    "dotenv": "^7.0.0",
-    "node-sass": "^4.11.0",
-    "serve": "^11.0.0",
-    "typescript": "^3.4.5"
-  },
-  "devDependencies": {
-    "@types/browser-sync": "^0.0.43",
-    "@types/dotenv": "^6.1.1",
-    "@types/node": "^11.13.7",
-    "@types/node-sass": "^4.11.0",
-    "tslint": "^5.16.0"
-  }
+    "name": "mecss",
+    "version": "0.3.0",
+    "description": "a Minimalist & Effortless CSS, using CSS properties aliases, Sass-based.",
+    "private": true,
+    "directories": {
+        "lib": "lib",
+        "test": "test"
+    },
+    "main": "./build/start.js",
+    "scripts": {
+        "build": "yarn lint && tsc",
+        "configenv": "node build/ConfigEnv.js",
+        "init": "serve build",
+        "lint": "tslint ./lib/**/*.ts",
+        "start": "yarn build && node build/start.js",
+        "watch": "yarn build && node build/watch.js"
+    },
+    "author": {
+        "name": "Alexandre Delaloy",
+        "email": "alexandre.delaloy.dev@gmail.com",
+        "url": "https://a-dll.com"
+    },
+    "homepage": "https://github.com/mecss/mecss#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mecss/mecss.git"
+    },
+    "bugs": {
+        "url": "https://github.com/mecss/mecss/issues"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "browser-sync": "^2.26.5",
+        "dotenv": "^7.0.0",
+        "node-sass": "^4.11.0",
+        "serve": "^11.0.0",
+        "typescript": "^3.4.5"
+    },
+    "devDependencies": {
+        "@types/browser-sync": "^0.0.43",
+        "@types/dotenv": "^6.1.1",
+        "@types/node": "^11.13.7",
+        "@types/node-sass": "^4.11.0",
+        "tslint": "^5.16.0"
+    },
+    "engines": {
+        "node": ">= 11.0.0",
+        "npm": ">= 6.0.0",
+        "yarn": ">= 1.0.0"
+    },
+    "keywords": [
+        "css",
+        "effortless",
+        "minimalist",
+        "preprocessor",
+        "sass"
+    ]
 }
