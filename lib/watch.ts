@@ -1,22 +1,29 @@
+import * as bs from 'browser-sync';
 import * as fs from 'fs';
-const bs = require(`browser-sync`).create();
 
-const Core = require(`./Core`);
+bs.create();
+
+import Core from './Core';
 
 class Watch {
     public scssInput: any;
     public publicPath: any;
+    public src: any;
+    public scssFiles: any;
     constructor() {
         this.scssInput = process.env.SCSS_MASTER;
         this.publicPath = process.env.PUBLIC;
+        this.src = process.env.SRC;
+        this.scssFiles = process.env.SCSS_FILES;
     }
     public start() {
         if (!fs.existsSync(this.publicPath)) fs.mkdirSync(this.publicPath);
         bs.init({
-            baseDir: process.env.SRC,
+            baseDir: `./src`,
+            port: 1234,
             server: this.publicPath,
         });
-        bs.watch(process.env.SCSS_FILES, (watchState: string) => {
+        bs.watch(this.scssFiles, (watchState: string) => {
             const newCore = new Core(watchState);
             newCore.start();
             bs.reload();

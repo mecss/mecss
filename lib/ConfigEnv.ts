@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 
-class ConfigEnv {
+export class ConfigEnv {
     public static init() {
         fs.copyFile(`./.env.example`, `./.env`, err => {
             if (err) throw err;

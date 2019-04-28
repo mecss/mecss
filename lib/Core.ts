@@ -1,8 +1,10 @@
+import * as dotenv from 'dotenv';
 import * as fs from 'fs';
 import * as sass from 'node-sass';
-require(`dotenv`).config();
 
-const Data = require(`./Data`);
+import Data from './Data';
+
+dotenv.config();
 
 class Core {
     public watchState: any;
@@ -35,7 +37,7 @@ class Core {
         fs.readFile(this.input, `utf8`, (err, data) => {
             if (err) throw err;
             else {
-                Data.map((x: { in: RegExp; out: string; }) => {
+                Data.map(x => {
                     const reg = new RegExp(x.in, `g`);
                     data = data.replace(reg, x.out);
                 });
@@ -57,4 +59,4 @@ class Core {
     }
 }
 
-module.exports = Core;
+export default Core;

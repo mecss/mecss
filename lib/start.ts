@@ -1,7 +1,8 @@
+import * as dotenv from 'dotenv';
 import * as fs from 'fs';
-require(`dotenv`).config();
+dotenv.config();
 
-const Core = require(`./Core`);
+import Core from './Core';
 
 class Start {
     public public: any;
@@ -10,7 +11,7 @@ class Start {
     }
     public start() {
         if (!fs.existsSync(this.public)) fs.mkdirSync(this.public);
-        const newCore = new Core();
+        const newCore = new Core(``);
         newCore.start();
     }
 }
