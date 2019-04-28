@@ -6,22 +6,34 @@ bs.create();
 import Core from './Core';
 
 class Watch {
-    public scssInput: any;
-    public publicPath: any;
-    public src: any;
-    public scssFiles: any;
+    private publicDir: string | undefined;
+    private scssFiles: string | undefined;
+    private scssInput: string | undefined;
+    private srcDir: string | undefined;
     constructor() {
-        this.scssInput = process.env.SCSS_MASTER;
-        this.publicPath = process.env.PUBLIC;
-        this.src = process.env.SRC;
+        this.publicDir = process.env.PUBLIC;
         this.scssFiles = process.env.SCSS_FILES;
+        this.scssInput = process.env.SCSS_MASTER;
+        this.srcDir = process.env.SRC;
+    }
+    private triggerFirstWatch() {
+        fs.appendFile(this.scssInput, `//w`, `utf8`, (err: boolean) => {
+            if (err) throw err;
+            else fs.readFile(this.scssInput, `utf8`, (err: boolean, data: string) => {
+                if (err) throw err;
+                const result = data.replace(/\/\/w/g, ``);
+                fs.writeFile(this.scssInput, result, `utf8`, (err: boolean) => {
+                    if (err) throw err;
+                });
+            });
+        });
     }
     public start() {
-        if (!fs.existsSync(this.publicPath)) fs.mkdirSync(this.publicPath);
+        if (!fs.existsSync(this.publicDir)) fs.mkdirSync(this.publicDir);
         bs.init({
-            baseDir: `./src`,
+            baseDir: this.srcDir,
+            server: this.publicDir,
             port: 1234,
-            server: this.publicPath,
         });
         bs.watch(this.scssFiles, (watchState: string) => {
             const newCore = new Core(watchState);
@@ -29,18 +41,6 @@ class Watch {
             bs.reload();
         });
         this.triggerFirstWatch();
-    }
-    public triggerFirstWatch() {
-        fs.appendFile(this.scssInput, `//w`, `utf8`, (err: any) => {
-            if (err) throw err;
-            else fs.readFile(this.scssInput, `utf8`, (err: any, data: any) => {
-                if (err) throw err;
-                const result = data.replace(/\/\/w/g, ``);
-                fs.writeFile(this.scssInput, result, `utf8`, (err: any) => {
-                    if (err) throw err;
-                });
-            });
-        });
     }
 }
 

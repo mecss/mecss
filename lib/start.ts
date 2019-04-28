@@ -4,13 +4,13 @@ require(`dotenv`).config();
 import Core from './Core';
 
 class Start {
-    public public: any;
+    private publicDir: string | undefined;
     constructor() {
-        this.public = process.env.PUBLIC;
+        this.publicDir = process.env.PUBLIC;
     }
     public start() {
-        if (!fs.existsSync(this.public)) fs.mkdirSync(this.public);
-        const newCore = new Core(``);
+        if (!fs.existsSync(this.publicDir)) fs.mkdirSync(this.publicDir);
+        const newCore = new Core(`no watch state`);
         newCore.start();
     }
 }
