@@ -1,5 +1,5 @@
-import * as bs from 'browser-sync';
-import * as fs from 'fs';
+const bs  = require(`browser-sync`);
+const fs  = require(`fs`);
 
 bs.create();
 
@@ -31,13 +31,13 @@ class Watch {
         this.triggerFirstWatch();
     }
     public triggerFirstWatch() {
-        fs.appendFile(this.scssInput, `//w`, `utf8`, err => {
+        fs.appendFile(this.scssInput, `//w`, `utf8`, (err: any) => {
             if (err) throw err;
-            else fs.readFile(this.scssInput, `utf8`, (err2, data) => {
-                if (err2) throw err2;
+            else fs.readFile(this.scssInput, `utf8`, (err: any, data: any) => {
+                if (err) throw err;
                 const result = data.replace(/\/\/w/g, ``);
-                fs.writeFile(this.scssInput, result, `utf8`, err3 => {
-                    if (err3) throw err3;
+                fs.writeFile(this.scssInput, result, `utf8`, (err: any) => {
+                    if (err) throw err;
                 });
             });
         });

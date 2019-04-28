@@ -1,10 +1,9 @@
-import * as dotenv from 'dotenv';
-import * as fs from 'fs';
-import * as sass from 'node-sass';
 
-import Data from './Data';
+const fs = require(`fs`);
+const sass = require(`node-sass`);
+require(`dotenv`).config();
 
-dotenv.config();
+const Data = require(`./Data`);
 
 class Core {
     public watchState: any;
@@ -22,9 +21,9 @@ class Core {
             file: this.scssInput,
             outFile: this.input,
             outputStyle: `compressed`,
-        }, (err, res) => {
+        }, (err: any, res: { css: any; }) => {
             if (err) throw err;
-            else fs.writeFile(this.input, res.css, err2 => {
+            else fs.writeFile(this.input, res.css, (err2: any) => {
                 if (err2) throw (err2);
                 else {
                     this.handleMeFiles();
@@ -34,14 +33,14 @@ class Core {
         });
     }
     public handleMeFiles() {
-        fs.readFile(this.input, `utf8`, (err, data) => {
+        fs.readFile(this.input, `utf8`, (err: any, data: any) => {
             if (err) throw err;
             else {
-                Data.map(x => {
+                Data.map((x: any) => {
                     const reg = new RegExp(x.in, `g`);
                     data = data.replace(reg, x.out);
                 });
-                fs.writeFile(this.output, data, `utf8`, err2 => {
+                fs.writeFile(this.output, data, `utf8`, (err2: any) => {
                     if (err2) throw err2;
                     else this.deleteUselessFiles();
                 });
@@ -49,7 +48,7 @@ class Core {
         });
     }
     public deleteUselessFiles() {
-        if (!this.watchState || this.watchState === `change`) fs.unlink(this.input, err => {
+        if (!this.watchState || this.watchState === `change`) fs.unlink(this.input, (err: any) => {
             if (err) throw err;
             else console.log(`✅  | mecss file watched`);
         });

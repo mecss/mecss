@@ -1,6 +1,5 @@
-import * as dotenv from 'dotenv';
-import * as fs from 'fs';
-dotenv.config();
+const fs = require(`fs`);
+require(`dotenv`).config();
 
 import Core from './Core';
 
