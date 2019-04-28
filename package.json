@@ -8,12 +8,12 @@
     "test": "test"
   },
   "scripts": {
-    "configenv": "node build/ConfigEnv.js",
     "build": "yarn lint && tsc",
+    "configenv": "node build/ConfigEnv.js",
     "init": "serve build",
-    "start": "node build/start.js",
-    "watch": "node build/watch.js",
-    "lint": "tslint ./lib/**/*.ts"
+    "lint": "tslint ./lib/**/*.ts",
+    "start": "yarn build && node build/start.js",
+    "watch": "yarn build && node build/watch.js"
   },
   "repository": {
     "type": "git",
