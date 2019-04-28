@@ -10,7 +10,7 @@
     "main": "./build/start.js",
     "scripts": {
         "build": "yarn lint && tsc",
-        "configenv": "node build/ConfigEnv.js",
+        "configenv": "yarn build && node build/ConfigEnv.js",
         "init": "serve build",
         "lint": "tslint ./lib/**/*.ts",
         "start": "yarn build && node build/start.js",
