@@ -1,3 +1,4 @@
+const chalk = require(`chalk`);
 const fs = require(`fs`);
 
 class ConfigEnv {
@@ -6,7 +7,7 @@ class ConfigEnv {
             if (err) throw err;
             else fs.unlink(`./.env.example`, (err: boolean) => {
                 if (err) throw err;
-                else throw `🛠  | mecss environment configured !`;
+                else console.log(chalk.hex(`#8769ce`).bold(`[config]`) + chalk.hex(`#5fcc9e`).bold(` mecss`) +  ` environement configured.`);
             });
         });
     }

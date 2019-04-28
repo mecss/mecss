@@ -35,9 +35,10 @@ class Watch {
             server: this.publicDir,
             port: 1234,
         });
-        bs.watch(this.scssFiles, (watchState: string) => {
-            const newCore = new Core(watchState);
+        bs.watch(this.scssFiles, (watchState: string, file: string) => {
+            const newCore = new Core(watchState, file);
             newCore.start();
+            console.clear();
             bs.reload();
         });
         this.triggerFirstWatch();
