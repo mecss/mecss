@@ -1,4 +1,18 @@
 const Data = {
+    align: [
+        {
+            in: `ali-c:|ali-c +:`,
+            out: `align-content:`
+        },
+        {
+            in: `ali-i:|ali-i +:`,
+            out: `align-items:`
+        },
+        {
+            in: `ali-s:|ali-s +:`,
+            out: `align-self:`
+        },
+    ],
     // background
     background: [
         {
