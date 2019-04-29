@@ -13,6 +13,48 @@ const Data = {
             out: `align-self:`
         },
     ],
+    animation: [
+        {
+            in: `ani:|ani +:`,
+            out: `animation:`
+        },
+        {
+            in: `ani-dl:|ani-dl +:`,
+            out: `animation-delay:`
+        },
+        {
+            in: `ani-del:|ani-del +:`,
+            out: `animation-delay:`
+        },
+        {
+            in: `ani-dir:|ani-dir +:`,
+            out: `animation-direction:`
+        },
+        {
+            in: `ani-dur:|ani-dur +:`,
+            out: `animation-duration:`
+        },
+        {
+            in: `ani-fm:|ani-fm +:`,
+            out: `animation-fill-mode:`
+        },
+        {
+            in: `ani-ic:|ani-ic +:`,
+            out: `animation-iteration-count:`
+        },
+        {
+            in: `ani-nm:|ani-nm +:`,
+            out: `animation-name:`
+        },
+        {
+            in: `ani-ps:|ani-ps +:`,
+            out: `animation-play-state:`
+        },
+        {
+            in: `ani-tf:|ani-tf +:`,
+            out: `animation-timing-function:`
+        }
+    ],
     // background
     background: [
         {
