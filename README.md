@@ -1,10 +1,9 @@
 <p>
     <a href="https://github.com/mecss/mecss/releases"><img src="https://img.shields.io/github/release-pre/mecss/mecss.svg?logoColor=%2300FF00" alt="mecss last pre-release"/></a>
-    <a href="https://github.com/mecss/mecss/blob/master/package.json"><img src="https://img.shields.io/david/dev/mecss/mecss.svg
-" alt="mecss depedencies"/></a>
-    <a href=""><img src="https://img.shields.io/github/languages/top/mecss/mecss.svg" alt="mecss top language"/></a>
-    <a href="https://github.com/mecss/mecss/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc"><img src="https://img.shields.io/github/issues/mecss/mecss.svg" alt="mecss issues"/></a>
+    <a href=""><img src="https://img.shields.io/github/package-json/keywords/mecss/mecss.svg?color=%23e8c410" alt="mecss keywords"/></a>
     <a href="https://github.com/mecss/mecss/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mecss/mecss.svg" alt="mecss license"/></a>
+    <a href="https://github.com/mecss/mecss/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc"><img src="https://img.shields.io/github/issues/mecss/mecss.svg" alt="mecss issues"/></a>
+    <a href=""><img src="https://img.shields.io/github/languages/top/mecss/mecss.svg" alt="mecss top language"/></a>
 </p>
 
 # mecss
