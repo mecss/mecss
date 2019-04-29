@@ -1,6 +1,6 @@
 {
     "name": "mecss",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "a Minimalist & Effortless CSS, using CSS properties aliases, Sass-based.",
     "private": true,
     "directories": {
