@@ -37,10 +37,15 @@ class Core {
         fs.readFile(this.input, `utf8`, (err: boolean, data: string) => {
             if (err) throw err;
             else {
-                Data.map((x: { in: string, out: string }) => {
-                    const reg = new RegExp(x.in, `g`);
-                    data = data.replace(reg, x.out);
-                });
+                for (const prop in Data) {
+                    if (Data.hasOwnProperty(prop)) {
+                        const props = Data[prop];
+                        props.map((x: { in: RegExp; out: string; }) => {
+                            const reg = new RegExp(x.in, `g`);
+                            data = data.replace(reg, x.out);
+                        });
+                    }
+                }
                 fs.writeFile(this.output, data, `utf8`, (err: boolean) => {
                     if (err) throw err;
                     else {

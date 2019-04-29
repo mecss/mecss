@@ -1,33 +1,42 @@
-const Data = [
+const Data = {
     // background
-    {
-        in: `bg:|bg +:`,
-        out: `background:`,
-    },
+    background: [
+        {
+            in: `bg:|bg +:`,
+            out: `background:`,
+        },
+    ],
     // border
-    {
-        in: `bd:|bd +:`,
-        out: `border:`,
-    },
+    border: [
+        {
+            in: `bd:|bd +:`,
+            out: `border:`,
+        },
+    ],
     // colors
-    {
-        in: `cl:|cl +:`,
-        out: `color:`,
-    },
+    color: [
+        {
+            in: `cl:|cl +:`,
+            out: `color:`,
+        },
+    ],
     // size
-    {
-        in: `wd:|wd +:`,
-        out: `width:`,
-    },
-    {
-        in: `ht:|ht +:`,
-        out: `height:`,
-    },
-    // pseudo-classes
-    {
-        in: `:hov|: +hov`,
-        out: `:hover`,
-    },
-];
+    size: [
+        {
+            in: `wd:|wd +:`,
+            out: `width:`,
+        },
+        {
+            in: `ht:|ht +:`,
+            out: `height:`,
+        },
+    ],
+    pseudo: [
+        {
+            in: `:hov|: +hov`,
+            out: `:hover`,
+        },
+    ]
+};
 
 module.exports = Data;
