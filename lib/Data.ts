@@ -61,6 +61,42 @@ const Data = {
             in: `bg:|bg +:`,
             out: `background:`,
         },
+        {
+            in: `bg-a:|bg-a +:`,
+            out: `background-attachment:`,
+        },
+        {
+            in: `bg-bm:|bg-bm +:`,
+            out: `background-blend-mode:`,
+        },
+        {
+            in: `bg-cp:|bg-cp +:`,
+            out: `background-clip:`,
+        },
+        {
+            in: `bg-cl:|bg-cl +:`,
+            out: `background-color:`,
+        },
+        {
+            in: `bg-i:|bg-i +:`,
+            out: `background-image:`,
+        },
+        {
+            in: `bg-o:|bg-o +:`,
+            out: `background-origin:`,
+        },
+        {
+            in: `bg-p:|bg-p +:`,
+            out: `background-position:`,
+        },
+        {
+            in: `bg-r:|bg-r +:`,
+            out: `background-repeat:`,
+        },
+        {
+            in: `bg-s:|bg-s +:`,
+            out: `background-size:`,
+        },
     ],
     // border
     border: [
