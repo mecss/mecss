@@ -2,7 +2,7 @@
 
 The properties are ignored if there are less 5 characters.
 
-- [``all`](https://developer.mozilla.org/en-US/docs/Web/CSS/all) *(>= 5 chars)*
+- [`all`](https://developer.mozilla.org/en-US/docs/Web/CSS/all) *(>= 5 chars)*
 - [`additive-symbols`](https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/additive-symbols) *(not yet treated)*
 - [`backface-visibility`](https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility) *(not yet treated)*
 - [`<basic-shape>`](https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape) *(not yet treated)*
