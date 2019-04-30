@@ -4,7 +4,7 @@ const path = require(`path`);
 const sass = require(`node-sass`);
 require(`dotenv`).config();
 
-const Data = require(`./Data`);
+const Data = require(`./data/Data`);
 
 class Core {
     private aliasLength: number;
