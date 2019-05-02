@@ -5,3 +5,4 @@
 | `all`                              | >= 5 chars      | [[?]](https://developer.mozilla.org/en-US/docs/Web/CSS/all) |
 | `clear`                              | >= 5 chars      | [[?]](https://developer.mozilla.org/en-US/docs/Web/CSS/clear) |
 | `clip`                              | >= 5 chars      | [[?]](https://developer.mozilla.org/en-US/docs/Web/CSS/clip) |
+| `float`                              | >= 5 chars      | [[?]](https://developer.mozilla.org/en-US/docs/Web/CSS/float) |

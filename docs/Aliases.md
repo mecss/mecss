@@ -147,15 +147,55 @@
 |counter-increment|ctr-i|
 |counter-reset|ctr-r|
 
-## other (8 properties)
+## flex (7 properties)
 
 | PROPERTY | ALIAS |
 | -------- | ----: |
-|additive-symbols|as|
+|flex|fx|
+|flex-basis|fx-b|
+|flex-direction|fx-d|
+|flex-flow|fx-f|
+|flex-grow|fx-g|
+|flex-shrink|fx-s|
+|flex-wrap|fx-w|
+
+## font (18 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|font|ft|
+|font-family|ft-f|
+|font-features-settings|ft-fs|
+|font-kerning|ft-k|
+|font-language-override|ft-lo|
+|font-size|ft-sz|
+|font-size-adjust|ft-sa|
+|font-strech|ft-sr|
+|font-style|ft-sy|
+|font-synthesis|ft-st|
+|font-variant|ft-v|
+|font-variant-alternates|ft-v-a|
+|font-variant-caps|ft-v-c|
+|font-variant-east-asian|ft-v-ea|
+|font-variant-ligatures|ft-v-l|
+|font-variant-numeric|ft-v-n|
+|font-variant-position|ft-v-p|
+|font-weight|ft-w|
+
+## other (13 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|additive-symbols|as (MDN)|
 |backface-visibility|bv|
-|block-size|bs|
+|block-size|bs (MDN)|
+|bottom|bt|
 |caption-side|cs|
 |caret-color|cc|
 |clip-path|cp|
-|countent|ct|
+|content|ct|
 |cursor|cu|
+|direction|dr|
+|display|ds|
+|empty-cells|ec|
+|filter|fl|
