@@ -4,7 +4,10 @@
     "description": "a Minimalist & Effortless CSS, using CSS properties aliases, Sass-based.",
     "private": true,
     "directories": {
+        "docs": "docs",
         "lib": "lib",
+        "script":"script",
+        "src": "src",
         "test": "test"
     },
     "main": "./build/start.js",
