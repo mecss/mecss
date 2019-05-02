@@ -207,6 +207,11 @@
             "out": "border-collapse:"
         },
         {
+            "alias": "bd-cl",
+            "in": "bd-cl:|bd-cl +:",
+            "out": "border-collapse:"
+        },
+        {
             "alias": "bd-e-e-rd",
             "in": "bd-e-e-rd:|bd-e-e-rd +:",
             "out": "border-end-end-radius:"
