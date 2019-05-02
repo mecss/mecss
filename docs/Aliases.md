@@ -67,8 +67,8 @@
 |border-image-outset|bd-im-o|
 |border-image-repeat|bd-im-r|
 |border-image-slice|bd-im-sl|
-|border-image-source|undefined|
-|border-image-width|bd-im-w-c|
+|border-image-source|bd-im-sr|
+|border-image-width|bd-im-w|
 |border-inline|bd-in|
 |border-inline-color|bd-in-c|
 |border-inline-end|bd-in-e|

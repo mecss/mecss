@@ -252,11 +252,12 @@
             "out": "border-image-slice:"
         },
         {
+            "alias": "bd-im-sr",
             "in": "bd-im-sr:|bd-im-sr +:",
             "out": "border-image-source:"
         },
         {
-            "alias": "bd-im-w-c",
+            "alias": "bd-im-w",
             "in": "bd-im-w:|bd-im-w +:",
             "out": "border-image-width:"
         },
