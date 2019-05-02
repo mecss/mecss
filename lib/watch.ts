@@ -1,9 +1,9 @@
 const bs  = require(`browser-sync`);
 const fs  = require(`fs`);
 
-bs.create();
 
-import Core from './Core';
+const Core = require(`./Core`);
+
 
 class Watch {
     private publicDir: string | undefined;
@@ -29,6 +29,7 @@ class Watch {
         });
     }
     public start() {
+        bs.create();
         if (!fs.existsSync(this.publicDir)) fs.mkdirSync(this.publicDir);
         bs.init({
             baseDir: this.srcDir,
@@ -47,3 +48,6 @@ class Watch {
 
 const meWatch = new Watch();
 meWatch.start();
+
+
+export{};

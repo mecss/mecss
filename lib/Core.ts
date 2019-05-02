@@ -4,8 +4,6 @@ const path = require(`path`);
 const sass = require(`node-sass`);
 require(`dotenv`).config();
 
-const json = JSON.parse(fs.readFileSync(path.resolve(__dirname, `data/data.json`)));
-
 class Core {
     private aliasLength: number;
     private aliasFounded: number;
@@ -14,7 +12,6 @@ class Core {
     private scssInput: string | undefined;
     private watchedFile: string;
     private watchState: string;
-
     constructor(watchState: string, watchedFile: string) {
         this.aliasLength = 0;
         this.aliasFounded = 0;
@@ -38,6 +35,7 @@ class Core {
         });
     }
     private handleMeFiles() {
+        const json = JSON.parse(fs.readFileSync(path.resolve(process.env.DATA_OUTPUT)));
         fs.readFile(this.input, `utf8`, (err: boolean, data: string) => {
             if (err) throw err;
             else {
@@ -82,4 +80,5 @@ class Core {
     }
 }
 
-export default Core;
+module.exports = Core;
+export{};
