@@ -1,24 +1,18 @@
 ## Init
 
 ```bash
-yarn configenv
+yarn config-env
 ```
 
 > will copy `.env.example` to `.env` to work with **environment variables**.
 
-## Lint & Build
-
-```bash
-yarn lint
-```
-
-> will use TypeScript Linter to trigger all warns & errors.
+## Build
 
 ```yarn
 yarn build
 ```
 
-> will lint all files first, then compile then to JavaScript.
+> will use TypeScript Linter to trigger all warns & errors, then compile then to JavaScript.
 
 ## Start & Watch
 
