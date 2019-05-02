@@ -182,7 +182,41 @@
 |font-variant-position|ft-v-p|
 |font-weight|ft-w|
 
-## other (13 properties)
+## grid (18 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|grid|g|
+|grid-area|g-ar|
+|grid-auto-columns|g-au-c|
+|grid-auto-flows|g-au-f|
+|grid-auto-rows|g-au-r|
+|grid-columns|g-c|
+|grid-columns-end|g-c-e|
+|grid-columns-gap|g-c-g|
+|grid-columns-start|g-c-s|
+|grid-gap|g-g|
+|grid-row|g-r|
+|grid-row-end|g-r-e|
+|grid-row-gap|g-r-g|
+|grid-row-start|g-r-s|
+|grid-template|g-t|
+|grid-template-areas|g-t-a|
+|grid-template-columns|g-t-c|
+|grid-template-rows|g-t-r|
+
+## line (6 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|line-break|l-b|
+|line-height|l-h|
+|line-style|l-s|
+|line-style-image|l-s-i|
+|line-style-position|l-s-p|
+|line-style-type|l-s-t|
+
+## other (20 properties)
 
 | PROPERTY | ALIAS |
 | -------- | ----: |
@@ -199,3 +233,10 @@
 |display|ds|
 |empty-cells|ec|
 |filter|fl|
+|hanging-ponctuation|hp|
+|height|hg|
+|hyphens|hy|
+|image-rendering|ir|
+|isolation|is|
+|justify-content|jc|
+|letter-spacing|ls|
