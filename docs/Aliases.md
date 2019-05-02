@@ -36,7 +36,7 @@
 |background-repeat|bg-r|
 |background-size|bg-s|
 
-## border (59 properties)
+## border (61 properties)
 
 | PROPERTY | ALIAS |
 | -------- | ----- |
@@ -57,6 +57,8 @@
 |border-bottom-color|bd-bt-c|
 |border-bottom-left-radius|bd-bt-l-rd|
 |border-bottom-right-radius|bd-bt-r-rd|
+|border-bottom-style|bd-bt-sy|
+|border-bottom-width|bd-bt-w|
 |border-collapse|bd-cs|
 |border-color|bd-cl|
 |border-end-end-radius|bd-e-e-rd|
