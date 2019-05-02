@@ -216,7 +216,31 @@
 |line-style-position|l-s-p|
 |line-style-type|l-s-t|
 
-## other (20 properties)
+## margin (5 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|margin|mg|
+|margin-bottom|mg-b|
+|margin-left|mg-l|
+|margin-right|mg-r|
+|margin-top|mg-t|
+
+## max (2 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|max-height|mx-h|
+|max-width|mx-w|
+
+## min (2 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|min-height|mn-h|
+|min-width|mn-w|
+
+## other (21 properties)
 
 | PROPERTY | ALIAS |
 | -------- | ----: |
@@ -240,3 +264,4 @@
 |isolation|is|
 |justify-content|jc|
 |letter-spacing|ls|
+|mix-blending-mode|mbm|
