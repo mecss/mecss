@@ -6,19 +6,17 @@
     "directories": {
         "docs": "docs",
         "lib": "lib",
-        "script":"script",
+        "script": "script",
         "src": "src",
         "test": "test"
     },
     "main": "./build/start.js",
     "scripts": {
-        "build": "yarn lint && tsc",
-        "data": "touch build/data && cp ./lib/data/*.json ./build/data/",
-        "configenv": "yarn build && node build/ConfigEnv.js",
-        "init": "serve build",
-        "lint": "tslint ./lib/**/*.ts",
-        "start": "yarn build && node build/start.js",
-        "watch": "yarn build && node build/watch.js"
+        "build": "scripts/mecss-build.sh",
+        "data": "scripts/mecss-data.sh",
+        "config-env": "scripts/config.sh",
+        "start": "scripts/mecss-start.sh",
+        "watch": "scripts/mecss-watch.sh"
     },
     "author": {
         "name": "Alexandre Delaloy",
