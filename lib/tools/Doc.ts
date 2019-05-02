@@ -14,7 +14,7 @@ class Doc {
                 gr.map((x: { alias: string; out: string; }) => {
                     tmp += `|${x.out.replace(`:`, ``)}|${x.alias}|\n`;
                 });
-                titleTmp += `\n| PROPERTY | ALIAS |\n| -------- | ----- |\n${tmp}`;
+                titleTmp += `\n| PROPERTY | ALIAS |\n| -------- | ----: |\n${tmp}`;
             }
         }
         fs.writeFile(`./docs/Aliases.md`, titleTmp, (err: any) => {

@@ -2,7 +2,7 @@
 ## align (3 properties)
 
 | PROPERTY | ALIAS |
-| -------- | ----- |
+| -------- | ----: |
 |align-content|al-c|
 |align-items|al-i|
 |align-self|al-s|
@@ -10,7 +10,7 @@
 ## animation (9 properties)
 
 | PROPERTY | ALIAS |
-| -------- | ----- |
+| -------- | ----: |
 |animation|an|
 |animation-delay|an-de|
 |animation-direction|an-di|
@@ -24,7 +24,7 @@
 ## background (10 properties)
 
 | PROPERTY | ALIAS |
-| -------- | ----- |
+| -------- | ----: |
 |background|bg|
 |background-attachment|bg-a|
 |background-blend-mode|bg-bm|
@@ -39,7 +39,7 @@
 ## border (61 properties)
 
 | PROPERTY | ALIAS |
-| -------- | ----- |
+| -------- | ----: |
 |border|bd|
 |border-block|bd-bl|
 |border-block-color|bd-bl-c|
@@ -105,57 +105,57 @@
 ## box (3 properties)
 
 | PROPERTY | ALIAS |
-| -------- | ----- |
-|box-decoration-break|bx-db:|
-|box-shadow|bx-sd:|
-|box-sizing|bx-sz:|
+| -------- | ----: |
+|box-decoration-break|bx-db|
+|box-shadow|bx-sd|
+|box-sizing|bx-sz|
 
 ## break (3 properties)
 
 | PROPERTY | ALIAS |
-| -------- | ----- |
-|break-after|bk-a:|
-|break-before|bk-b:|
-|break-inside|bk-i:|
+| -------- | ----: |
+|break-after|bk-a|
+|break-before|bk-b|
+|break-inside|bk-i|
 
 ## color (2 properties)
 
 | PROPERTY | ALIAS |
-| -------- | ----- |
-|color|cr:|
-|color-adjust|cr-a:|
+| -------- | ----: |
+|color|cr|
+|color-adjust|cr-a|
 
 ## column (10 properties)
 
 | PROPERTY | ALIAS |
-| -------- | ----- |
-|column-count|cl-c:|
-|column-fill|cl-f:|
-|column-gap|cl-g:|
-|column-rule|cl-r:|
-|column-rule-color|cl-r-c:|
-|column-rule-style|cl-r-sy:|
-|column-rule-width|cl-r-w:|
-|column-span|cl-s:|
-|column-width|cl-w:|
-|columns|cls:|
+| -------- | ----: |
+|column-count|cl-c|
+|column-fill|cl-f|
+|column-gap|cl-g|
+|column-rule|cl-r|
+|column-rule-color|cl-r-c|
+|column-rule-style|cl-r-sy|
+|column-rule-width|cl-r-w|
+|column-span|cl-s|
+|column-width|cl-w|
+|columns|cls|
 
 ## counter (2 properties)
 
 | PROPERTY | ALIAS |
-| -------- | ----- |
-|counter-increment|ctr-i:|
-|counter-reset|ctr-r:|
+| -------- | ----: |
+|counter-increment|ctr-i|
+|counter-reset|ctr-r|
 
 ## other (8 properties)
 
 | PROPERTY | ALIAS |
-| -------- | ----- |
-|additive-symbols|as:|
-|backface-visibility|bv:|
-|block-size|bs:|
-|caption-side|cs:|
-|caret-color|cc:|
-|clip-path|cp:|
-|countent|ct:|
-|cursor|cu:|
+| -------- | ----: |
+|additive-symbols|as|
+|backface-visibility|bv|
+|block-size|bs|
+|caption-side|cs|
+|caret-color|cc|
+|clip-path|cp|
+|countent|ct|
+|cursor|cu|

@@ -423,152 +423,152 @@
     ],
     "box": [
         {
-            "alias": "bx-db:",
+            "alias": "bx-db",
             "in": "bx-db:|bx-db +:",
             "out": "box-decoration-break:"
         },
         {
-            "alias": "bx-sd:",
+            "alias": "bx-sd",
             "in": "bx-sd:|bx-sd +:",
             "out": "box-shadow:"
         },
         {
-            "alias": "bx-sz:",
+            "alias": "bx-sz",
             "in": "bx-sz:|bx-sz +:",
             "out": "box-sizing:"
         }
     ],
     "break": [
         {
-            "alias": "bk-a:",
+            "alias": "bk-a",
             "in": "bk-a:|bk-a +:",
             "out": "break-after:"
         },
         {
-            "alias": "bk-b:",
+            "alias": "bk-b",
             "in": "bk-b:|bk-b +:",
             "out": "break-before:"
         },
         {
-            "alias": "bk-i:",
+            "alias": "bk-i",
             "in": "bk-i:|bk-i +:",
             "out": "break-inside:"
         }
     ],
     "color": [
         {
-            "alias": "cr:",
+            "alias": "cr",
             "in": "cr:|cr +:",
             "out": "color:"
         },
         {
-            "alias": "cr-a:",
+            "alias": "cr-a",
             "in": "cr-a:|cr-a +:",
             "out": "color-adjust:"
         }
     ],
     "column": [
         {
-            "alias": "cl-c:",
+            "alias": "cl-c",
             "in": "cl-c:|cl-c +:",
             "out": "column-count:"
         },
         {
-            "alias": "cl-f:",
+            "alias": "cl-f",
             "in": "cl-f:|cl-f +:",
             "out": "column-fill:"
         },
         {
-            "alias": "cl-g:",
+            "alias": "cl-g",
             "in": "cl-g:|cl-g +:",
             "out": "column-gap:"
         },
         {
-            "alias": "cl-r:",
+            "alias": "cl-r",
             "in": "cl-r:|cl-r +:",
             "out": "column-rule:"
         },
         {
-            "alias": "cl-r-c:",
+            "alias": "cl-r-c",
             "in": "cl-r-c:|cl-r-c +:",
             "out": "column-rule-color:"
         },
         {
-            "alias": "cl-r-sy:",
+            "alias": "cl-r-sy",
             "in": "cl-r-sy:|cl-r-sy +:",
             "out": "column-rule-style:"
         },
         {
-            "alias": "cl-r-w:",
+            "alias": "cl-r-w",
             "in": "cl-r-w:|cl-r-w +:",
             "out": "column-rule-width:"
         },
         {
-            "alias": "cl-s:",
+            "alias": "cl-s",
             "in": "cl-s:|cl-s +:",
             "out": "column-span:"
         },
         {
-            "alias": "cl-w:",
+            "alias": "cl-w",
             "in": "cl-w:|cl-w +:",
             "out": "column-width:"
         },
         {
-            "alias": "cls:",
+            "alias": "cls",
             "in": "cls:|cls +:",
             "out": "columns:"
         }
     ],
     "counter": [
         {
-            "alias": "ctr-i:",
+            "alias": "ctr-i",
             "in": "ctr-i:|ctr-i +:",
             "out": "counter-increment:"
         },
         {
-            "alias": "ctr-r:",
+            "alias": "ctr-r",
             "in": "ctr-r:|ctr-r +:",
             "out": "counter-reset:"
         }
     ],
     "other": [
         {
-            "alias": "as:",
+            "alias": "as",
             "in": "as:|as +:",
             "out": "additive-symbols:"
         },
         {
-            "alias": "bv:",
+            "alias": "bv",
             "in": "bv:|bv +:",
             "out": "backface-visibility:"
         },
         {
-            "alias": "bs:",
+            "alias": "bs",
             "in": "bs:|bs +:",
             "out": "block-size:"
         },
         {
-            "alias": "cs:",
+            "alias": "cs",
             "in": "cs:|cs +:",
             "out": "caption-side:"
         },
         {
-            "alias": "cc:",
+            "alias": "cc",
             "in": "cc:|cc +:",
             "out": "caret-color:"
         },
         {
-            "alias": "cp:",
+            "alias": "cp",
             "in": "cp:|cp +:",
             "out": "clip-path:"
         },
         {
-            "alias": "ct:",
+            "alias": "ct",
             "in": "ct:|ct +:",
             "out": "countent:"
         },
         {
-            "alias": "cu:",
+            "alias": "cu",
             "in": "cu:|cu +:",
             "out": "cursor:"
         }
