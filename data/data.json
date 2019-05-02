@@ -785,6 +785,57 @@
             "out": "line-style-type:"
         }
     ],
+    "margin": [
+        {
+            "alias": "mg",
+            "in": "mg:|mg +:",
+            "out": "margin:"
+        },
+        {
+            "alias": "mg-b",
+            "in": "mg-b:|mg-b +:",
+            "out": "margin-bottom:"
+        },
+        {
+            "alias": "mg-l",
+            "in": "mg-l:|mg-l +:",
+            "out": "margin-left:"
+        },
+        {
+            "alias": "mg-r",
+            "in": "mg-r:|mg-r +:",
+            "out": "margin-right:"
+        },
+        {
+            "alias": "mg-t",
+            "in": "mg-t:|mg-t +:",
+            "out": "margin-top:"
+        }
+    ],
+    "max": [
+        {
+            "alias": "mx-h",
+            "in": "mx-h:|mx-h +:",
+            "out": "max-height:"
+        },
+        {
+            "alias": "mx-w",
+            "in": "mx-w:|mx-w +:",
+            "out": "max-width:"
+        }
+    ],
+    "min": [
+        {
+            "alias": "mn-h",
+            "in": "mn-h:|mn-h +:",
+            "out": "min-height:"
+        },
+        {
+            "alias": "mn-w",
+            "in": "mn-w:|mn-w +:",
+            "out": "min-width:"
+        }
+    ],
     "other": [
         {
             "alias": "as (MDN)",
@@ -885,6 +936,11 @@
             "alias": "ls",
             "in": "ls:|ls +:",
             "out": "letter-spacing:"
+        },
+        {
+            "alias": "mbm",
+            "in": "mbm:|mbm +:",
+            "out": "mix-blending-mode:"
         }
     ]
 }
