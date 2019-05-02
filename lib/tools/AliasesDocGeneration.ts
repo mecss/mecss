@@ -1,9 +1,9 @@
-const Data2 = require(`../data/Data`);
-const fs2 = require(`fs`);
+const Data = require(`../data/Data`);
+const fs = require(`fs`);
 let titleTmp = ``;
-for (const key in Data2) {
-    if (Data2.hasOwnProperty(key)) {
-        const gr = Data2[key];
+for (const key in Data) {
+    if (Data.hasOwnProperty(key)) {
+        const gr = Data[key];
         let tmp = ``;
         titleTmp += `\n## ${key} (${gr.length} properties)\n`;
         gr.map((x: { alias: string; out: string; }) => {
@@ -13,6 +13,8 @@ for (const key in Data2) {
     }
 }
 
-fs2.writeFile(`./docs/Aliases.md`, titleTmp, (err: any) => {
+fs.writeFile(`./docs/Aliases.md`, titleTmp, (err: any) => {
     if (err) throw err;
 });
+
+export {};
