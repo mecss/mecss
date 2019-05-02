@@ -1,9 +1,10 @@
 const fs = require(`fs`);
 const path = require(`path`);
-const json = JSON.parse(fs.readFileSync(path.resolve(__dirname, `data/data.json`)));
+require(`dotenv`).config();
 
-class AliasesDocGeneration {
-    public static init() {
+class Doc {
+    public static generateAliases() {
+        const json = JSON.parse(fs.readFileSync(path.resolve(process.env.DATA_OUTPUT)));
         let titleTmp = ``;
         for (const key in json) {
             if (json.hasOwnProperty(key)) {
@@ -22,6 +23,8 @@ class AliasesDocGeneration {
     }
 }
 
-AliasesDocGeneration.init();
+Doc.generateAliases();
 
-export {};
+module.exports = Doc;
+
+export{};
