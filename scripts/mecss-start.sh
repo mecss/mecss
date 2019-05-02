@@ -1,5 +1,5 @@
 #!/bin/bash
 
-yarn build || npm run build
+. "$(pwd)/scripts/mecss-build.sh";
 
 node build/start.js
