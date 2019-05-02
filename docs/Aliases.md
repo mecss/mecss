@@ -58,7 +58,7 @@
 |border-bottom-left-radius|bd-bt-l-rd|
 |border-bottom-right-radius|bd-bt-r-rd|
 |border-collapse|bd-cs|
-|border-collapse|bd-cl|
+|border-color|bd-cl|
 |border-end-end-radius|bd-e-e-rd|
 |border-end-start-radius|bd-e-st-rd|
 |border-image|bd-im|

@@ -209,7 +209,7 @@
         {
             "alias": "bd-cl",
             "in": "bd-cl:|bd-cl +:",
-            "out": "border-collapse:"
+            "out": "border-color:"
         },
         {
             "alias": "bd-e-e-rd",
