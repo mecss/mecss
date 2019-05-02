@@ -661,6 +661,130 @@
             "out": "font-weight:"
         }
     ],
+    "grid": [
+        {
+            "alias": "g",
+            "in": "g:|g +:",
+            "out": "grid:"
+        },
+        {
+            "alias": "g-ar",
+            "in": "g-ar:|g-ar +:",
+            "out": "grid-area:"
+        },
+        {
+            "alias": "g-au-c",
+            "in": "g-au-c:|g-au-c +:",
+            "out": "grid-auto-columns:"
+        },
+        {
+            "alias": "g-au-f",
+            "in": "g-au-f:|g-au-f +:",
+            "out": "grid-auto-flows:"
+        },
+        {
+            "alias": "g-au-r",
+            "in": "g-au-r:|g-au-r +:",
+            "out": "grid-auto-rows:"
+        },
+        {
+            "alias": "g-c",
+            "in": "g-c:|g-c +:",
+            "out": "grid-columns:"
+        },
+        {
+            "alias": "g-c-e",
+            "in": "g-c-e:|g-c-e +:",
+            "out": "grid-columns-end:"
+        },
+        {
+            "alias": "g-c-g",
+            "in": "g-c-g:|g-c-g +:",
+            "out": "grid-columns-gap:"
+        },
+        {
+            "alias": "g-c-s",
+            "in": "g-c-s:|g-c-s +:",
+            "out": "grid-columns-start:"
+        },
+        {
+            "alias": "g-g",
+            "in": "g-g:|g-g +:",
+            "out": "grid-gap:"
+        },
+        {
+            "alias": "g-r",
+            "in": "g-r:|g-r +:",
+            "out": "grid-row:"
+        },
+        {
+            "alias": "g-r-e",
+            "in": "g-r-e:|g-r-e +:",
+            "out": "grid-row-end:"
+        },
+        {
+            "alias": "g-r-g",
+            "in": "g-r-g:|g-r-g +:",
+            "out": "grid-row-gap:"
+        },
+        {
+            "alias": "g-r-s",
+            "in": "g-r-s:|g-r-s +:",
+            "out": "grid-row-start:"
+        },
+        {
+            "alias": "g-t",
+            "in": "g-t:|g-t +:",
+            "out": "grid-template:"
+        },
+        {
+            "alias": "g-t-a",
+            "in": "g-t-a:|g-t-a +:",
+            "out": "grid-template-areas:"
+        },
+        {
+            "alias": "g-t-c",
+            "in": "g-t-c:|g-t-c +:",
+            "out": "grid-template-columns:"
+        },
+        {
+            "alias": "g-t-r",
+            "in": "g-t-r:|g-t-r +:",
+            "out": "grid-template-rows:"
+        }
+    ],
+    "line": [
+        {
+            "alias": "l-b",
+            "in": "l-b:|l-b +:",
+            "out": "line-break:"
+        },
+        {
+            "alias": "l-h",
+            "in": "l-h:|l-h +:",
+            "out": "line-height:"
+        },
+        {
+            "alias": "l-s",
+            "in": "l-s:|l-s +:",
+            "out": "line-style:"
+        },
+        {
+            "alias": "l-s-i",
+            "in": "l-s-i:|l-s-i +:",
+            "out": "line-style-image:"
+        },
+        {
+            "alias": "l-s-p",
+            "in": "l-s-p:|l-s-p +:",
+            "out": "line-style-position:"
+        },
+        {
+            "alias": "l-s-t",
+            "in": "l-s-t:|l-s-t +:",
+            "out": "line-style-type:"
+        }
+    ],
     "other": [
         {
             "alias": "as (MDN)",
@@ -726,6 +850,41 @@
             "alias": "fl",
             "in": "fl:|fl +:",
             "out": "filter:"
+        },
+        {
+            "alias": "hp",
+            "in": "hp:|hp +:",
+            "out": "hanging-ponctuation:"
+        },
+        {
+            "alias": "hg",
+            "in": "hg:|hg +:",
+            "out": "height:"
+        },
+        {
+            "alias": "hy",
+            "in": "hy:|hy +:",
+            "out": "hyphens:"
+        },
+        {
+            "alias": "ir",
+            "in": "ir:|ir +:",
+            "out": "image-rendering:"
+        },
+        {
+            "alias": "is",
+            "in": "is:|is +:",
+            "out": "isolation:"
+        },
+        {
+            "alias": "jc",
+            "in": "jc:|jc +:",
+            "out": "justify-content:"
+        },
+        {
+            "alias": "ls",
+            "in": "ls:|ls +:",
+            "out": "letter-spacing:"
         }
     ]
 }
