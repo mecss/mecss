@@ -421,26 +421,156 @@
             "out": "border-width:"
         }
     ],
-    "color": [
+    "box": [
         {
-            "in": "cl:|cl +:",
-            "out": "color:"
-        }
-    ],
-    "size": [
-        {
-            "in": "wd:|wd +:",
-            "out": "width:"
+            "alias": "bx-db:",
+            "in": "bx-db:|bx-db +:",
+            "out": "box-decoration-break:"
         },
         {
-            "in": "ht:|ht +:",
-            "out": "height:"
+            "alias": "bx-sd:",
+            "in": "bx-sd:|bx-sd +:",
+            "out": "box-shadow:"
+        },
+        {
+            "alias": "bx-sz:",
+            "in": "bx-sz:|bx-sz +:",
+            "out": "box-sizing:"
         }
     ],
-    "pseudo": [
+    "break": [
         {
-            "in": ":hov|: +hov",
-            "out": ":hover"
+            "alias": "bk-a:",
+            "in": "bk-a:|bk-a +:",
+            "out": "break-after:"
+        },
+        {
+            "alias": "bk-b:",
+            "in": "bk-b:|bk-b +:",
+            "out": "break-before:"
+        },
+        {
+            "alias": "bk-i:",
+            "in": "bk-i:|bk-i +:",
+            "out": "break-inside:"
+        }
+    ],
+    "color": [
+        {
+            "alias": "cr:",
+            "in": "cr:|cr +:",
+            "out": "color:"
+        },
+        {
+            "alias": "cr-a:",
+            "in": "cr-a:|cr-a +:",
+            "out": "color-adjust:"
+        }
+    ],
+    "column": [
+        {
+            "alias": "cl-c:",
+            "in": "cl-c:|cl-c +:",
+            "out": "column-count:"
+        },
+        {
+            "alias": "cl-f:",
+            "in": "cl-f:|cl-f +:",
+            "out": "column-fill:"
+        },
+        {
+            "alias": "cl-g:",
+            "in": "cl-g:|cl-g +:",
+            "out": "column-gap:"
+        },
+        {
+            "alias": "cl-r:",
+            "in": "cl-r:|cl-r +:",
+            "out": "column-rule:"
+        },
+        {
+            "alias": "cl-r-c:",
+            "in": "cl-r-c:|cl-r-c +:",
+            "out": "column-rule-color:"
+        },
+        {
+            "alias": "cl-r-sy:",
+            "in": "cl-r-sy:|cl-r-sy +:",
+            "out": "column-rule-style:"
+        },
+        {
+            "alias": "cl-r-w:",
+            "in": "cl-r-w:|cl-r-w +:",
+            "out": "column-rule-width:"
+        },
+        {
+            "alias": "cl-s:",
+            "in": "cl-s:|cl-s +:",
+            "out": "column-span:"
+        },
+        {
+            "alias": "cl-w:",
+            "in": "cl-w:|cl-w +:",
+            "out": "column-width:"
+        },
+        {
+            "alias": "cls:",
+            "in": "cls:|cls +:",
+            "out": "columns:"
+        }
+    ],
+    "counter": [
+        {
+            "alias": "ctr-i:",
+            "in": "ctr-i:|ctr-i +:",
+            "out": "counter-increment:"
+        },
+        {
+            "alias": "ctr-r:",
+            "in": "ctr-r:|ctr-r +:",
+            "out": "counter-reset:"
+        }
+    ],
+    "other": [
+        {
+            "alias": "as:",
+            "in": "as:|as +:",
+            "out": "additive-symbols:"
+        },
+        {
+            "alias": "bv:",
+            "in": "bv:|bv +:",
+            "out": "backface-visibility:"
+        },
+        {
+            "alias": "bs:",
+            "in": "bs:|bs +:",
+            "out": "block-size:"
+        },
+        {
+            "alias": "cs:",
+            "in": "cs:|cs +:",
+            "out": "caption-side:"
+        },
+        {
+            "alias": "cc:",
+            "in": "cc:|cc +:",
+            "out": "caret-color:"
+        },
+        {
+            "alias": "cp:",
+            "in": "cp:|cp +:",
+            "out": "clip-path:"
+        },
+        {
+            "alias": "ct:",
+            "in": "ct:|ct +:",
+            "out": "countent:"
+        },
+        {
+            "alias": "cu:",
+            "in": "cu:|cu +:",
+            "out": "cursor:"
         }
     ]
 }

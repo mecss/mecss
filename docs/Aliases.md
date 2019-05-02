@@ -102,21 +102,60 @@
 |border-top-width|bd-t-w|
 |border-width|bd-w|
 
-## color (1 properties)
+## box (3 properties)
 
 | PROPERTY | ALIAS |
 | -------- | ----- |
-|color|undefined|
+|box-decoration-break|bx-db:|
+|box-shadow|bx-sd:|
+|box-sizing|bx-sz:|
 
-## size (2 properties)
-
-| PROPERTY | ALIAS |
-| -------- | ----- |
-|width|undefined|
-|height|undefined|
-
-## pseudo (1 properties)
+## break (3 properties)
 
 | PROPERTY | ALIAS |
 | -------- | ----- |
-|hover|undefined|
+|break-after|bk-a:|
+|break-before|bk-b:|
+|break-inside|bk-i:|
+
+## color (2 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----- |
+|color|cr:|
+|color-adjust|cr-a:|
+
+## column (10 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----- |
+|column-count|cl-c:|
+|column-fill|cl-f:|
+|column-gap|cl-g:|
+|column-rule|cl-r:|
+|column-rule-color|cl-r-c:|
+|column-rule-style|cl-r-sy:|
+|column-rule-width|cl-r-w:|
+|column-span|cl-s:|
+|column-width|cl-w:|
+|columns|cls:|
+
+## counter (2 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----- |
+|counter-increment|ctr-i:|
+|counter-reset|ctr-r:|
+
+## other (8 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----- |
+|additive-symbols|as:|
+|backface-visibility|bv:|
+|block-size|bs:|
+|caption-side|cs:|
+|caret-color|cc:|
+|clip-path|cp:|
+|countent|ct:|
+|cursor|cu:|
