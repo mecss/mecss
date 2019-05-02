@@ -4,7 +4,7 @@ const path = require(`path`);
 const sass = require(`node-sass`);
 require(`dotenv`).config();
 
-const Data = require(`./data/Data`);
+const json = JSON.parse(fs.readFileSync(path.resolve(__dirname, `data/data.json`)));
 
 class Core {
     private aliasLength: number;
@@ -41,9 +41,9 @@ class Core {
         fs.readFile(this.input, `utf8`, (err: boolean, data: string) => {
             if (err) throw err;
             else {
-                for (const prop in Data) {
-                    if (Data.hasOwnProperty(prop)) {
-                        const props = Data[prop];
+                for (const prop in json) {
+                    if (json.hasOwnProperty(prop)) {
+                        const props = json[prop];
                         props.map((x: { in: RegExp; out: string; }) => {
                             this.aliasLength++;
                             const reg = new RegExp(x.in, `g`);
@@ -56,10 +56,7 @@ class Core {
                 }
                 fs.writeFile(this.output, data, `utf8`, (err: boolean) => {
                     if (err) throw err;
-                    else {
-                        this.deleteUselessFiles();
-                    }
-
+                    else this.deleteUselessFiles();
                 });
             }
         });
