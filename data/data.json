@@ -532,9 +532,138 @@
             "out": "counter-reset:"
         }
     ],
+    "flex": [
+        {
+            "alias": "fx",
+            "in": "fx:|fx +:",
+            "out": "flex:"
+        },
+        {
+            "alias": "fx-b",
+            "in": "fx-b:|fx-b +:",
+            "out": "flex-basis:"
+        },
+        {
+            "alias": "fx-d",
+            "in": "fx-d:|fx-d +:",
+            "out": "flex-direction:"
+        },
+        {
+            "alias": "fx-f",
+            "in": "fx-f:|fx-f +:",
+            "out": "flex-flow:"
+        },
+        {
+            "alias": "fx-g",
+            "in": "fx-g:|fx-g +:",
+            "out": "flex-grow:"
+        },
+        {
+            "alias": "fx-s",
+            "in": "fx-s:|fx-s +:",
+            "out": "flex-shrink:"
+        },
+        {
+            "alias": "fx-w",
+            "in": "fx-w:|fx-w +:",
+            "out": "flex-wrap:"
+        }
+    ],
+    "font": [
+        {
+            "alias": "ft",
+            "in": "ft:|ft +:",
+            "out": "font:"
+        },
+        {
+            "alias": "ft-f",
+            "in": "ft-f:|ft-f +:",
+            "out": "font-family:"
+        },
+        {
+            "alias": "ft-fs",
+            "in": "ft-fs:|ft-fs +:",
+            "out": "font-features-settings:"
+        },
+        {
+            "alias": "ft-k",
+            "in": "ft-k:|ft-k +:",
+            "out": "font-kerning:"
+        },
+        {
+            "alias": "ft-lo",
+            "in": "ft-lo:|ft-lo +:",
+            "out": "font-language-override"
+        },
+        {
+            "alias": "ft-sz",
+            "in": "ft-sz:|ft-sz +:",
+            "out": "font-size:"
+        },
+        {
+            "alias": "ft-sa",
+            "in": "ft-sa:|ft-sa +:",
+            "out": "font-size-adjust:"
+        },
+        {
+            "alias": "ft-sr",
+            "in": "ft-sr:|ft-sr +:",
+            "out": "font-strech:"
+        },
+        {
+            "alias": "ft-sy",
+            "in": "ft-sy:|ft-sy +:",
+            "out": "font-style:"
+        },
+        {
+            "alias": "ft-st",
+            "in": "ft-st:|ft-st +:",
+            "out": "font-synthesis:"
+        },
+        {
+            "alias": "ft-v",
+            "in": "ft-v:|ft-v +:",
+            "out": "font-variant:"
+        },
+        {
+            "alias": "ft-v-a",
+            "in": "ft-v-a:|ft-v-a +:",
+            "out": "font-variant-alternates:"
+        },
+        {
+            "alias": "ft-v-c",
+            "in": "ft-v-c:|ft-v-c +:",
+            "out": "font-variant-caps:"
+        },
+        {
+            "alias": "ft-v-ea",
+            "in": "ft-v-ea:|ft-v-ea +:",
+            "out": "font-variant-east-asian:"
+        },
+        {
+            "alias": "ft-v-l",
+            "in": "ft-v-l:|ft-v-l +:",
+            "out": "font-variant-ligatures:"
+        },
+        {
+            "alias": "ft-v-n",
+            "in": "ft-v-n:|ft-v-n +:",
+            "out": "font-variant-numeric:"
+        },
+        {
+            "alias": "ft-v-p",
+            "in": "ft-v-p:|ft-v-p +:",
+            "out": "font-variant-position:"
+        },
+        {
+            "alias": "ft-w",
+            "in": "ft-w:|ft-w +:",
+            "out": "font-weight:"
+        }
+    ],
     "other": [
         {
-            "alias": "as",
+            "alias": "as (MDN)",
             "in": "as:|as +:",
             "out": "additive-symbols:"
         },
@@ -544,9 +673,14 @@
             "out": "backface-visibility:"
         },
         {
-            "alias": "bs",
+            "alias": "bs (MDN)",
             "in": "bs:|bs +:",
             "out": "block-size:"
+        },
+        {
+            "alias": "bt",
+            "in": "bt:|bt +:",
+            "out": "bottom:"
         },
         {
             "alias": "cs",
@@ -566,12 +700,32 @@
         {
             "alias": "ct",
             "in": "ct:|ct +:",
-            "out": "countent:"
+            "out": "content:"
         },
         {
             "alias": "cu",
             "in": "cu:|cu +:",
             "out": "cursor:"
+        },
+        {
+            "alias": "dr",
+            "in": "dr:|dr +:",
+            "out": "direction:"
+        },
+        {
+            "alias": "ds",
+            "in": "ds:|ds +:",
+            "out": "display:"
+        },
+        {
+            "alias": "ec",
+            "in": "ec:|ec +:",
+            "out": "empty-cells:"
+        },
+        {
+            "alias": "fl",
+            "in": "fl:|fl +:",
+            "out": "filter:"
         }
     ]
 }
