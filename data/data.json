@@ -992,6 +992,67 @@
             "out": "min-width:"
         }
     ],
+    "object": [
+        {
+            "alias": "ob-f",
+            "in": "ob-f:|ob-f +:",
+            "out": "object-fit:"
+        },
+        {
+            "alias": "ob-p",
+            "in": "ob-p:|ob-p +:",
+            "out": "object-position:"
+        }
+    ],
+    "outline": [
+        {
+            "alias": "ot",
+            "in": "ot:|ot +:",
+            "out": "outline:"
+        },
+        {
+            "alias": "ot-c",
+            "in": "ot-c:|ot-c +:",
+            "out": "outline-color:"
+        },
+        {
+            "alias": "ot-o",
+            "in": "ot-o:|ot-o +:",
+            "out": "outline-offset:"
+        },
+        {
+            "alias": "ot-s",
+            "in": "ot-s:|ot-s +:",
+            "out": "outline-style:"
+        },
+        {
+            "alias": "ot-w",
+            "in": "ot-w:|ot-w +:",
+            "out": "outline-width:"
+        }
+    ],
+    "overflow": [
+        {
+            "alias": "ov",
+            "in": "ov:|ov +:",
+            "out": "overflow:"
+        },
+        {
+            "alias": "ov-w",
+            "in": "ov-w:|ov-w +:",
+            "out": "overflow-wrap:"
+        },
+        {
+            "alias": "ov-x",
+            "in": "ov-x:|ov-x +:",
+            "out": "overflow-x:"
+        },
+        {
+            "alias": "ov-y",
+            "in": "ov-y:|ov-y +:",
+            "out": "overflow-y:"
+        }
+    ],
     "other": [
         {
             "alias": "as (MDN)",
@@ -1092,6 +1153,21 @@
             "alias": "mbm",
             "in": "mbm:|mbm +:",
             "out": "mix-blending-mode:"
+        },
+        {
+            "alias": "op",
+            "in": "op:|op +:",
+            "out": "opacity:"
+        },
+        {
+            "alias": "or",
+            "in": "or:|or +:",
+            "out": "order:"
+        },
+        {
+            "alias": "oh",
+            "in": "oh:|oh +:",
+            "out": "orphans:"
         }
     ]
 }
