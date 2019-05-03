@@ -753,35 +753,103 @@
             "out": "grid-template-rows:"
         }
     ],
+    "image": [
+        {
+            "alias": "io",
+            "in": "io:|io +:",
+            "out": "image-orientation:"
+        },
+        {
+            "alias": "ir",
+            "in": "ir:|ir +:",
+            "out": "image-rendering:"
+        }
+    ],
+    "inset": [
+        {
+            "alias": "it",
+            "in": "it:|it +:",
+            "out": "inset:"
+        },
+        {
+            "alias": "it-b",
+            "in": "it-b:|it-b +:",
+            "out": "inset-block:"
+        },
+        {
+            "alias": "it-b-e",
+            "in": "it-b-e:|it-b-e +:",
+            "out": "inset-block-end:"
+        },
+        {
+            "alias": "it-b-s",
+            "in": "it-b-s:|it-b-s +:",
+            "out": "inset-block-start:"
+        },
+        {
+            "alias": "it-i",
+            "in": "it-i:|it-i +:",
+            "out": "inset-inline:"
+        },
+        {
+            "alias": "it-i-e",
+            "in": "it-i-e:|it-i-e +:",
+            "out": "inset-inline-end:"
+        },
+        {
+            "alias": "it-i-s",
+            "in": "it-i-s:|it-i-s +:",
+            "out": "inset-inline-start:"
+        }
+    ],
+    "justify": [
+        {
+            "alias": "jc",
+            "in": "jc:|jc +:",
+            "out": "justify-content:"
+        },
+        {
+            "alias": "ji",
+            "in": "ji:|ji +:",
+            "out": "justify-items:"
+        },
+        {
+            "alias": "js",
+            "in": "js:|js +:",
+            "out": "justify-self:"
+        }
+    ],
     "line": [
         {
-            "alias": "l-b",
-            "in": "l-b:|l-b +:",
+            "alias": "ln-b",
+            "in": "ln-b:|ln-b +:",
             "out": "line-break:"
         },
         {
-            "alias": "l-h",
-            "in": "l-h:|l-h +:",
+            "alias": "ln-h",
+            "in": "ln-h:|ln-h +:",
             "out": "line-height:"
-        },
+        }
+    ],
+    "list": [
         {
-            "alias": "l-s",
-            "in": "l-s:|l-s +:",
+            "alias": "ls-s",
+            "in": "ls-s:|ls-s +:",
             "out": "line-style:"
         },
         {
-            "alias": "l-s-i",
-            "in": "l-s-i:|l-s-i +:",
+            "alias": "ls-s-i",
+            "in": "ls-s-i:|ls-s-i +:",
             "out": "line-style-image:"
         },
         {
-            "alias": "l-s-p",
-            "in": "l-s-p:|l-s-p +:",
+            "alias": "ls-s-p",
+            "in": "ls-s-p:|ls-s-p +:",
             "out": "line-style-position:"
         },
         {
-            "alias": "l-s-t",
-            "in": "l-s-t:|l-s-t +:",
+            "alias": "ls-s-t",
+            "in": "ls-s-t:|ls-s-t +:",
             "out": "line-style-type:"
         }
     ],
@@ -792,9 +860,39 @@
             "out": "margin:"
         },
         {
-            "alias": "mg-b",
-            "in": "mg-b:|mg-b +:",
+            "alias": "mg-bl",
+            "in": "mg-bl:|mg-bl +:",
+            "out": "margin-block:"
+        },
+        {
+            "alias": "mg-bl-e",
+            "in": "mg-bl-e:|mg-bl-e +:",
+            "out": "margin-block-end:"
+        },
+        {
+            "alias": "mg-bl-s",
+            "in": "mg-bl-s:|mg-bl-s +:",
+            "out": "margin-block-start:"
+        },
+        {
+            "alias": "mg-bt",
+            "in": "mg-bt:|mg-bt +:",
             "out": "margin-bottom:"
+        },
+        {
+            "alias": "mg-i",
+            "in": "mg-i:|mg-i +:",
+            "out": "margin-inline:"
+        },
+        {
+            "alias": "mg-i-e",
+            "in": "mg-i-e:|mg-i-e +:",
+            "out": "margin-inline-end:"
+        },
+        {
+            "alias": "mg-i-s",
+            "in": "mg-i-s:|mg-i-s +:",
+            "out": "margin-inline-start:"
         },
         {
             "alias": "mg-l",
@@ -811,6 +909,59 @@
             "in": "mg-t:|mg-t +:",
             "out": "margin-top:"
         }
+    ],
+    "mask": [
+        {
+            "alias": "mk",
+            "in": "mk:|mk +:",
+            "out": "mask:"
+        },
+        {
+            "alias": "mk-cl",
+            "in": "mk-cl:|mk-cl +:",
+            "out": "mask-clip:"
+        },
+        {
+            "alias": "mk-cp",
+            "in": "mk-cp:|mk-cp +:",
+            "out": "mask-composite:"
+        },
+        {
+            "alias": "mk-i",
+            "in": "mk-i:|mk-i +:",
+            "out": "mask-image:"
+        },
+        {
+            "alias": "mk-m",
+            "in": "mk-m:|mk-m +:",
+            "out": "mask-mode:"
+        },
+        {
+            "alias": "mk-o",
+            "in": "mk-o:|mk-o +:",
+            "out": "mask-origin:"
+        },
+        {
+            "alias": "mk-p",
+            "in": "mk-p:|mk-p +:",
+            "out": "mask-position:"
+        },
+        {
+            "alias": "mk-r",
+            "in": "mk-r:|mk-r +:",
+            "out": "mask-repeat:"
+        },
+        {
+            "alias": "mk-s",
+            "in": "mk-s:|mk-s +:",
+            "out": "mask-size:"
+        },
+        {
+            "alias": "mk-t",
+            "in": "mk-t:|mk-t +:",
+            "out": "mask-type:"
+        }
+
     ],
     "max": [
         {
@@ -829,6 +980,11 @@
             "alias": "mn-h",
             "in": "mn-h:|mn-h +:",
             "out": "min-height:"
+        },
+        {
+            "alias": "mn-i-s",
+            "in": "mn-i-s:|mn-i-s +:",
+            "out": "min-inline-size:"
         },
         {
             "alias": "mn-w",
@@ -918,19 +1074,14 @@
             "out": "hyphens:"
         },
         {
-            "alias": "ir",
-            "in": "ir:|ir +:",
-            "out": "image-rendering:"
+            "alias": "is",
+            "in": "is:|is +:",
+            "out": "inline-size:"
         },
         {
             "alias": "is",
             "in": "is:|is +:",
             "out": "isolation:"
-        },
-        {
-            "alias": "jc",
-            "in": "jc:|jc +:",
-            "out": "justify-content:"
         },
         {
             "alias": "ls",
