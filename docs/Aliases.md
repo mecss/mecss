@@ -205,26 +205,79 @@
 |grid-template-columns|g-t-c|
 |grid-template-rows|g-t-r|
 
-## line (6 properties)
+## image (2 properties)
 
 | PROPERTY | ALIAS |
 | -------- | ----: |
-|line-break|l-b|
-|line-height|l-h|
-|line-style|l-s|
-|line-style-image|l-s-i|
-|line-style-position|l-s-p|
-|line-style-type|l-s-t|
+|image-orientation|io|
+|image-rendering|ir|
 
-## margin (5 properties)
+## inset (7 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|inset|it|
+|inset-block|it-b|
+|inset-block-end|it-b-e|
+|inset-block-start|it-b-s|
+|inset-inline|it-i|
+|inset-inline-end|it-i-e|
+|inset-inline-start|it-i-s|
+
+## justify (3 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|justify-content|jc|
+|justify-items|ji|
+|justify-self|js|
+
+## line (2 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|line-break|ln-b|
+|line-height|ln-h|
+
+## list (4 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|line-style|ls-s|
+|line-style-image|ls-s-i|
+|line-style-position|ls-s-p|
+|line-style-type|ls-s-t|
+
+## margin (11 properties)
 
 | PROPERTY | ALIAS |
 | -------- | ----: |
 |margin|mg|
-|margin-bottom|mg-b|
+|margin-block|mg-bl|
+|margin-block-end|mg-bl-e|
+|margin-block-start|mg-bl-s|
+|margin-bottom|mg-bt|
+|margin-inline|mg-i|
+|margin-inline-end|mg-i-e|
+|margin-inline-start|mg-i-s|
 |margin-left|mg-l|
 |margin-right|mg-r|
 |margin-top|mg-t|
+
+## mask (10 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|mask|mk|
+|mask-clip|mk-cl|
+|mask-composite|mk-cp|
+|mask-image|mk-i|
+|mask-mode|mk-m|
+|mask-origin|mk-o|
+|mask-position|mk-p|
+|mask-repeat|mk-r|
+|mask-size|mk-s|
+|mask-type|mk-t|
 
 ## max (2 properties)
 
@@ -233,14 +286,15 @@
 |max-height|mx-h|
 |max-width|mx-w|
 
-## min (2 properties)
+## min (3 properties)
 
 | PROPERTY | ALIAS |
 | -------- | ----: |
 |min-height|mn-h|
+|min-inline-size|mn-i-s|
 |min-width|mn-w|
 
-## other (21 properties)
+## other (20 properties)
 
 | PROPERTY | ALIAS |
 | -------- | ----: |
@@ -260,8 +314,7 @@
 |hanging-ponctuation|hp|
 |height|hg|
 |hyphens|hy|
-|image-rendering|ir|
+|inline-size|is|
 |isolation|is|
-|justify-content|jc|
 |letter-spacing|ls|
 |mix-blending-mode|mbm|
