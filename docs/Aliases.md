@@ -294,7 +294,162 @@
 |min-inline-size|mn-i-s|
 |min-width|mn-w|
 
-## other (20 properties)
+## object (2 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|object-fit|ob-f|
+|object-position|ob-p|
+
+## outline (5 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|outline|ot|
+|outline-color|ot-c|
+|outline-offset|ot-o|
+|outline-style|ot-s|
+|outline-width|ot-w|
+
+## overflow (4 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|overflow|ov|
+|overflow-wrap|ov-w|
+|overflow-x|ov-x|
+|overflow-y|ov-y|
+
+## padding (11 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|padding|pd|
+|padding-block|pd-bl|
+|padding-block-end|pd-bl-e|
+|padding-block-start|pd-bl-s|
+|padding-bottom|pd-bt|
+|padding-inline|pd-i|
+|padding-inline-end|pd-i-e|
+|padding-inline-start|pd-i-s|
+|padding-left|pd-l|
+|padding-right|pd-r|
+|padding-top|pd-t|
+
+## page (3 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|page-break-after|p-ba|
+|page-break-before|p-bb|
+|page-break-inside|p-bi|
+
+## perspective (2 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|perspective|ps|
+|perspective-origin|ps-o|
+
+## place (3 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|place-content|pl-c|
+|place-items|pl-i|
+|place-self|pl-s|
+
+## scroll (26 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|scroll-behavior|sr-b|
+|scroll-margin|sr-m|
+|scroll-margin-block|sr-m-bl|
+|scroll-margin-block-end|sr-m-bl-e|
+|scroll-margin-block-start|sr-m-bl-s|
+|scroll-margin-bottom|sr-m-bt|
+|scroll-margin-inline|sr-m-i|
+|scroll-margin-inline-end|sr-m-i-e|
+|scroll-margin-inline-start|sr-m-i-s|
+|scroll-margin-left|sr-m-l|
+|scroll-margin-right|sr-m-r|
+|scroll-margin-top|sr-m-t|
+|scroll-padding|sr-p|
+|scroll-padding-block|sr-p-bl|
+|scroll-padding-block-end|sr-p-bl-e|
+|scroll-padding-block-start|sr-p-bl-s|
+|scroll-padding-bottom|sr-p-bt|
+|scroll-padding-inline|sr-p-i|
+|scroll-padding-inline-end|sr-p-i-e|
+|scroll-padding-inline-start|sr-p-i-s|
+|scroll-padding-left|sr-p-l|
+|scroll-padding-right|sr-p-r|
+|scroll-margin-top|sr-p-t|
+|scroll-snap-align|sr-s-a|
+|scroll-snap-stop|sr-s-s|
+|scroll-snap-type|sr-s-t|
+
+## shape (3 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|shape-image-treshold|sh-it|
+|shape-margin|sh-m|
+|shape-outside|sh-o|
+
+## text (19 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|text-align|tx-a|
+|text-align-last|tx-a-l|
+|text-combine-upright|tx-cu|
+|text-decoration|tx-d|
+|text-decoration-color|tx-d-c|
+|text-decoration-line|tx-d-l|
+|text-decoration-style|tx-d-s|
+|text-emphasis|tx-e|
+|text-emphasis-color|tx-e-c|
+|text-emphasis-line|tx-e-l|
+|text-emphasis-style|tx-e-s|
+|text-indent|tx-i|
+|text-justify|tx-j|
+|text-orientation|tx-or|
+|text-overflow|tx-ov|
+|text-rendering|tx-r|
+|text-shadow|tx-s|
+|text-transform|tx-t|
+|text-underline-position|tx-up|
+
+## transform (4 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|transform|ts|
+|transform-box|ts-b|
+|transform-origin|ts-o|
+|transform-style|ts-s|
+
+## transition (5 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|transition|tn|
+|transition-delay|tn-dl|
+|transition-duration|tn-du|
+|transition-property|tn-p|
+|transition-timing-function|tn-tf|
+
+## word (3 properties)
+
+| PROPERTY | ALIAS |
+| -------- | ----: |
+|word-break|wr-b|
+|word-spacing|wr-s|
+|word-wrap|wr-w|
+
+## other (39 properties)
 
 | PROPERTY | ALIAS |
 | -------- | ----: |
@@ -318,3 +473,22 @@
 |isolation|is|
 |letter-spacing|ls|
 |mix-blending-mode|mbm|
+|opacity|op|
+|order|or|
+|orphans|oh|
+|pointer-events|pe|
+|position|po|
+|quotes|q|
+|resize|rs|
+|right|rg|
+|tab-size|ts|
+|table-layout|tl|
+|unicode-bidi|ub|
+|user-select|us|
+|vertical-align|va|
+|visibility|vs|
+|white-space|ws|
+|widows|ww|
+|width|wd|
+|writting-mode|wm|
+|z-index|z|
