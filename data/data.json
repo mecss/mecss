@@ -1305,6 +1305,152 @@
             "out": "shape-outside:"
         }
     ],
+    "text": [
+        {
+            "alias": "tx-a",
+            "in": "tx-a:|tx-a +:",
+            "out": "text-align:"
+        },
+        {
+            "alias": "tx-a-l",
+            "in": "tx-a-l:|tx-a-l +:",
+            "out": "text-align-last:"
+        },
+        {
+            "alias": "tx-cu",
+            "in": "tx-cu:|tx-cu +:",
+            "out": "text-combine-upright:"
+        },
+        {
+            "alias": "tx-d",
+            "in": "tx-d:|tx-d +:",
+            "out": "text-decoration:"
+        },
+        {
+            "alias": "tx-d-c",
+            "in": "tx-d-c:|tx-d-c +:",
+            "out": "text-decoration-color:"
+        },
+        {
+            "alias": "tx-d-l",
+            "in": "tx-d-l:|tx-d-l +:",
+            "out": "text-decoration-line:"
+        },
+        {
+            "alias": "tx-d-s",
+            "in": "tx-d-s:|tx-d-s +:",
+            "out": "text-decoration-style:"
+        },
+        {
+            "alias": "tx-e",
+            "in": "tx-e:|tx-e +:",
+            "out": "text-emphasis:"
+        },
+        {
+            "alias": "tx-e-c",
+            "in": "tx-e-c:|tx-e-c +:",
+            "out": "text-emphasis-color:"
+        },
+        {
+            "alias": "tx-e-l",
+            "in": "tx-e-l:|tx-e-l +:",
+            "out": "text-emphasis-line:"
+        },
+        {
+            "alias": "tx-e-s",
+            "in": "tx-e-s:|tx-e-s +:",
+            "out": "text-emphasis-style:"
+        },
+        {
+            "alias": "tx-i",
+            "in": "tx-i:|tx-i +:",
+            "out": "text-indent:"
+        },
+        {
+            "alias": "tx-j",
+            "in": "tx-j:|tx-j +:",
+            "out": "text-justify:"
+        },
+        {
+            "alias": "tx-or",
+            "in": "tx-or:|tx-or +:",
+            "out": "text-orientation:"
+        },
+        {
+            "alias": "tx-ov",
+            "in": "tx-ov:|tx-ov +:",
+            "out": "text-overflow:"
+        },
+        {
+            "alias": "tx-r",
+            "in": "tx-r:|tx-r +:",
+            "out": "text-rendering:"
+        },
+        {
+            "alias": "tx-s",
+            "in": "tx-s:|tx-s +:",
+            "out": "text-shadow:"
+        },
+        {
+            "alias": "tx-t",
+            "in": "tx-t:|tx-t +:",
+            "out": "text-transform:"
+        },
+        {
+            "alias": "tx-up",
+            "in": "tx-up:|tx-up +:",
+            "out": "text-underline-position:"
+        }
+    ],
+    "transform": [
+        {
+            "alias": "ts",
+            "in": "ts:|ts +:",
+            "out": "transform:"
+        },
+        {
+            "alias": "ts-b",
+            "in": "ts-b:|ts-b +:",
+            "out": "transform-box:"
+        },
+        {
+            "alias": "ts-o",
+            "in": "ts-o:|ts-o +:",
+            "out": "transform-origin:"
+        },
+        {
+            "alias": "ts-s",
+            "in": "ts-s:|ts-s +:",
+            "out": "transform-style:"
+        }
+    ],
+    "transition": [
+        {
+            "alias": "tn",
+            "in": "tn:|tn +:",
+            "out": "transition:"
+        },
+        {
+            "alias": "tn-dl",
+            "in": "tn-dl:|tn-dl +:",
+            "out": "transition-delay:"
+        },
+        {
+            "alias": "tn-du",
+            "in": "tn-du:|tn-du +:",
+            "out": "transition-duration:"
+        },
+        {
+            "alias": "tn-p",
+            "in": "tn-p:|tn-p +:",
+            "out": "transition-property:"
+        },
+        {
+            "alias": "tn-tf",
+            "in": "tn-tf:|tn-tf +:",
+            "out": "transition-timing-function:"
+        }
+    ],
     "other": [
         {
             "alias": "as (MDN)",
@@ -1445,6 +1591,16 @@
             "alias": "rg",
             "in": "rg:|rg +:",
             "out": "right:"
+        },
+        {
+            "alias": "ts",
+            "in": "ts:|ts +:",
+            "out": "tab-size:"
+        },
+        {
+            "alias": "tl",
+            "in": "tl:|tl +:",
+            "out": "table-layout:"
         }
     ]
 }
