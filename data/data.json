@@ -1451,6 +1451,23 @@
             "out": "transition-timing-function:"
         }
     ],
+    "word": [
+        {
+            "alias": "wr-b",
+            "in": "wr-b:|wr-b +:",
+            "out": "word-break:"
+        },
+        {
+            "alias": "wr-s",
+            "in": "wr-s:|wr-s +:",
+            "out": "word-spacing:"
+        },
+        {
+            "alias": "wr-w",
+            "in": "wr-w:|wr-w +:",
+            "out": "word-wrap:"
+        }
+    ],
     "other": [
         {
             "alias": "as (MDN)",
@@ -1601,6 +1618,51 @@
             "alias": "tl",
             "in": "tl:|tl +:",
             "out": "table-layout:"
+        },
+        {
+            "alias": "ub",
+            "in": "ub:|ub +:",
+            "out": "unicode-bidi:"
+        },
+        {
+            "alias": "us",
+            "in": "us:|us +:",
+            "out": "user-select:"
+        },
+        {
+            "alias": "va",
+            "in": "va:|va +:",
+            "out": "vertical-align:"
+        },
+        {
+            "alias": "vs",
+            "in": "vs:|vs +:",
+            "out": "visibility:"
+        },
+        {
+            "alias": "ws",
+            "in": "ws:|ws +:",
+            "out": "white-space:"
+        },
+        {
+            "alias": "ww",
+            "in": "ww:|ww +:",
+            "out": "widows:"
+        },
+        {
+            "alias": "wd",
+            "in": "wd:|wd +:",
+            "out": "width:"
+        },
+        {
+            "alias": "wm",
+            "in": "wm:|wm +:",
+            "out": "writting-mode:"
+        },
+        {
+            "alias": "z",
+            "in": "z:|z +:",
+            "out": "z-index:"
         }
     ]
 }
