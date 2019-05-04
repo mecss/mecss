@@ -1053,6 +1053,109 @@
             "out": "overflow-y:"
         }
     ],
+    "padding": [
+        {
+            "alias": "pd",
+            "in": "pd:|pd +:",
+            "out": "padding:"
+        },
+        {
+            "alias": "pd-bl",
+            "in": "pd-bl:|pd-bl +:",
+            "out": "padding-block:"
+        },
+        {
+            "alias": "pd-bl-e",
+            "in": "pd-bl-e:|pd-bl-e +:",
+            "out": "padding-block-end:"
+        },
+        {
+            "alias": "pd-bl-s",
+            "in": "pd-bl-s:|pd-bl-s +:",
+            "out": "padding-block-start:"
+        },
+        {
+            "alias": "pd-bt",
+            "in": "pd-bt:|pd-bt +:",
+            "out": "padding-bottom:"
+        },
+        {
+            "alias": "pd-i",
+            "in": "pd-i:|pd-i +:",
+            "out": "padding-inline:"
+        },
+        {
+            "alias": "pd-i-e",
+            "in": "pd-i-e:|pd-i-e +:",
+            "out": "padding-inline-end:"
+        },
+        {
+            "alias": "pd-i-s",
+            "in": "pd-i-s:|pd-i-s +:",
+            "out": "padding-inline-start:"
+        },
+        {
+            "alias": "pd-l",
+            "in": "pd-l:|pd-l +:",
+            "out": "padding-left:"
+        },
+        {
+            "alias": "pd-r",
+            "in": "pd-r:|pd-r +:",
+            "out": "padding-right:"
+        },
+        {
+            "alias": "pd-t",
+            "in": "pd-t:|pd-t +:",
+            "out": "padding-top:"
+        }
+    ],
+    "page": [
+        {
+            "alias": "p-ba",
+            "in": "p-ba:|p-ba +:",
+            "out": "page-break-after:"
+        },
+        {
+            "alias": "p-bb",
+            "in": "p-bb:|p-bb +:",
+            "out": "page-break-before:"
+        },
+        {
+            "alias": "p-bi",
+            "in": "p-bi:|p-bi +:",
+            "out": "page-break-inside:"
+        }
+    ],
+    "perspective": [
+        {
+            "alias": "ps",
+            "in": "ps:|ps +:",
+            "out": "perspective:"
+        },
+        {
+            "alias": "ps-o",
+            "in": "ps-o:|ps-o +:",
+            "out": "perspective-origin:"
+        }
+    ],
+    "place": [
+        {
+            "alias": "pl-c",
+            "in": "pl-c:|pl-c +:",
+            "out": "place-content:"
+        },
+        {
+            "alias": "pl-i",
+            "in": "pl-i:|pl-i +:",
+            "out": "place-items:"
+        },
+        {
+            "alias": "pl-s",
+            "in": "pl-s:|pl-s +:",
+            "out": "place-self:"
+        }
+    ],
     "other": [
         {
             "alias": "as (MDN)",
@@ -1168,6 +1271,16 @@
             "alias": "oh",
             "in": "oh:|oh +:",
             "out": "orphans:"
+        },
+        {
+            "alias": "pe",
+            "in": "pe:|pe +:",
+            "out": "pointer-events:"
+        },
+        {
+            "alias": "po",
+            "in": "po:|po +:",
+            "out": "position:"
         }
     ]
 }
