@@ -1156,6 +1156,155 @@
             "out": "place-self:"
         }
     ],
+    "scroll": [
+        {
+            "alias": "sr-b",
+            "in": "sr-b:|sr-b +:",
+            "out": "scroll-behavior:"
+        },
+        {
+            "alias": "sr-m",
+            "in": "sr-m:|sr-m +:",
+            "out": "scroll-margin:"
+        },
+        {
+            "alias": "sr-m-bl",
+            "in": "sr-m-bl:|sr-m-bl +:",
+            "out": "scroll-margin-block:"
+        },
+        {
+            "alias": "sr-m-bl-e",
+            "in": "sr-m-bl-e:|sr-m-bl-e +:",
+            "out": "scroll-margin-block-end:"
+        },
+        {
+            "alias": "sr-m-bl-s",
+            "in": "sr-m-bl-s:|sr-m-bl-s +:",
+            "out": "scroll-margin-block-start:"
+        },
+        {
+            "alias": "sr-m-bt",
+            "in": "sr-m-bt:|sr-m-bt +:",
+            "out": "scroll-margin-bottom:"
+        },
+        {
+            "alias": "sr-m-i",
+            "in": "sr-m-i:|sr-m-i +:",
+            "out": "scroll-margin-inline:"
+        },
+        {
+            "alias": "sr-m-i-e",
+            "in": "sr-m-i-e:|sr-m-i-e +:",
+            "out": "scroll-margin-inline-end:"
+        },
+        {
+            "alias": "sr-m-i-s",
+            "in": "sr-m-i-s:|sr-m-i-s +:",
+            "out": "scroll-margin-inline-start:"
+        },
+        {
+            "alias": "sr-m-l",
+            "in": "sr-m-l:|sr-m-l +:",
+            "out": "scroll-margin-left:"
+        },
+        {
+            "alias": "sr-m-r",
+            "in": "sr-m-r:|sr-m-r +:",
+            "out": "scroll-margin-right:"
+        },
+        {
+            "alias": "sr-m-t",
+            "in": "sr-m-t:|sr-m-t +:",
+            "out": "scroll-margin-top:"
+        },
+        {
+            "alias": "sr-p",
+            "in": "sr-p:|sr-p +:",
+            "out": "scroll-padding:"
+        },
+        {
+            "alias": "sr-p-bl",
+            "in": "sr-p-bl:|sr-p-bl +:",
+            "out": "scroll-padding-block:"
+        },
+        {
+            "alias": "sr-p-bl-e",
+            "in": "sr-p-bl-e:|sr-p-bl-e +:",
+            "out": "scroll-padding-block-end:"
+        },
+        {
+            "alias": "sr-p-bl-s",
+            "in": "sr-p-bl-s:|sr-p-bl-s +:",
+            "out": "scroll-padding-block-start:"
+        },
+        {
+            "alias": "sr-p-bt",
+            "in": "sr-p-bt:|sr-p-bt +:",
+            "out": "scroll-padding-bottom:"
+        },
+        {
+            "alias": "sr-p-i",
+            "in": "sr-p-i:|sr-p-i +:",
+            "out": "scroll-padding-inline:"
+        },
+        {
+            "alias": "sr-p-i-e",
+            "in": "sr-p-i-e:|sr-p-i-e +:",
+            "out": "scroll-padding-inline-end:"
+        },
+        {
+            "alias": "sr-p-i-s",
+            "in": "sr-p-i-s:|sr-p-i-s +:",
+            "out": "scroll-padding-inline-start:"
+        },
+        {
+            "alias": "sr-p-l",
+            "in": "sr-p-l:|sr-p-l +:",
+            "out": "scroll-padding-left:"
+        },
+        {
+            "alias": "sr-p-r",
+            "in": "sr-p-r:|sr-p-r +:",
+            "out": "scroll-padding-right:"
+        },
+        {
+            "alias": "sr-p-t",
+            "in": "sr-p-t:|sr-p-t +:",
+            "out": "scroll-margin-top:"
+        },
+        {
+            "alias": "sr-s-a",
+            "in": "sr-s-a:|sr-s-a +:",
+            "out": "scroll-snap-align:"
+        },
+        {
+            "alias": "sr-s-s",
+            "in": "sr-s-s:|sr-s-s +:",
+            "out": "scroll-snap-stop:"
+        },
+        {
+            "alias": "sr-s-t",
+            "in": "sr-s-t:|sr-s-t +:",
+            "out": "scroll-snap-type:"
+        }
+    ],
+    "shape": [
+        {
+            "alias": "sh-it",
+            "in": "sh-it:|sh-it +:",
+            "out": "shape-image-treshold:"
+        },
+        {
+            "alias": "sh-m",
+            "in": "sh-m:|sh-m +:",
+            "out": "shape-margin:"
+        },
+        {
+            "alias": "sh-o",
+            "in": "sh-o:|sh-o +:",
+            "out": "shape-outside:"
+        }
+    ],
     "other": [
         {
             "alias": "as (MDN)",
@@ -1281,6 +1430,21 @@
             "alias": "po",
             "in": "po:|po +:",
             "out": "position:"
+        },
+        {
+            "alias": "q",
+            "in": "q:|q +:",
+            "out": "quotes:"
+        },
+        {
+            "alias": "rs",
+            "in": "rs:|rs +:",
+            "out": "resize:"
+        },
+        {
+            "alias": "rg",
+            "in": "rg:|rg +:",
+            "out": "right:"
         }
     ]
 }
